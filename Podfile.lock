@@ -1,0 +1,18 @@
+PODS:
+  - DMGuideView (1.0.2)
+  - DMLineView (1.0.0)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - DMGuideView (~> 1.0.0)
+  - DMLineView (~> 1.0.0)
+  - MBProgressHUD (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  DMGuideView: 72403eb5ba452c5775ba0643b0dbf9882949a345
+  DMLineView: 06a4f98647fdb1262c9fb9fd3ffad6a27cf7f3ad
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 489dd4ccffc6fe52710213142c9413f953a696a3
+
+COCOAPODS: 1.2.0.beta.1
