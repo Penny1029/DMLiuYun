@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0A54AE1E2F4972009676E7 /* DMGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A54AD1E2F4972009676E7 /* DMGameView.m */; };
 		3EBD39F41DF56EE900D36A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD39F31DF56EE900D36A9E /* main.m */; };
 		3EBD39F71DF56EE900D36A9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD39F61DF56EE900D36A9E /* AppDelegate.m */; };
 		3EBD39FA1DF56EE900D36A9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD39F91DF56EE900D36A9E /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E0A54AC1E2F4972009676E7 /* DMGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGameView.h; sourceTree = "<group>"; };
+		3E0A54AD1E2F4972009676E7 /* DMGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGameView.m; sourceTree = "<group>"; };
 		3EBD39EF1DF56EE900D36A9E /* DMLiuYun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMLiuYun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBD39F31DF56EE900D36A9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EBD39F51DF56EE900D36A9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0A54AB1E2F494A009676E7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				3E0A54AC1E2F4972009676E7 /* DMGameView.h */,
+				3E0A54AD1E2F4972009676E7 /* DMGameView.m */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		3EBD39E61DF56EE900D36A9E = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +77,7 @@
 		3EBD39F11DF56EE900D36A9E /* DMLiuYun */ = {
 			isa = PBXGroup;
 			children = (
+				3E0A54AB1E2F494A009676E7 /* Game */,
 				3EBD39F51DF56EE900D36A9E /* AppDelegate.h */,
 				3EBD39F61DF56EE900D36A9E /* AppDelegate.m */,
 				3EBD39F81DF56EE900D36A9E /* ViewController.h */,
@@ -227,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBD39FA1DF56EE900D36A9E /* ViewController.m in Sources */,
+				3E0A54AE1E2F4972009676E7 /* DMGameView.m in Sources */,
 				3EBD39F71DF56EE900D36A9E /* AppDelegate.m in Sources */,
 				3EBD39F41DF56EE900D36A9E /* main.m in Sources */,
 			);
@@ -389,6 +403,7 @@
 				3EBD3A081DF56EE900D36A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
